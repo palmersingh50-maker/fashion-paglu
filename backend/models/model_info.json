@@ -1,0 +1,43 @@
+{
+  "skin_tone_model": {
+    "file": "models/skin_tone_model.h5",
+    "accuracy": 94.4,
+    "classes": [
+      "Light",
+      "Light-Med",
+      "Medium",
+      "Med-Dark",
+      "Dark",
+      "Deep"
+    ],
+    "input_features": [
+      "r",
+      "g",
+      "b",
+      "brightness",
+      "r_g_diff",
+      "r_b_diff",
+      "g_b_diff",
+      "ita_angle"
+    ],
+    "trained_on": "6796 samples",
+    "architecture": "Dense(128\u219264\u219232\u21926) + BatchNorm + Dropout"
+  },
+  "outfit_model": {
+    "file": "models/outfit_compatibility_model.h5",
+    "accuracy": 65.13,
+    "output": "score (0-1) + compatible (0/1)",
+    "input_features": [
+      "undertone",
+      "body_type",
+      "occasion",
+      "n_items",
+      "has_outerwear",
+      "has_accessory",
+      "color_contrast",
+      "pattern_mix"
+    ],
+    "trained_on": "10200 samples",
+    "architecture": "Dense(256\u2192128\u219264\u219232) + Multi-output"
+  }
+}

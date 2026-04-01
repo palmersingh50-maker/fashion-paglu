@@ -1,0 +1,20 @@
+[
+  {
+    "id": "77265bcd-9a7f-4b52-b12a-a6f9d3665acf",
+    "name": "white tshirt",
+    "category": "tops",
+    "occasion": "casual",
+    "color": "white",
+    "season": "summer",
+    "photo": "1af1909c-d043-4519-aa74-d8b49a82eab7.jpeg",
+    "photo_url": "/uploads/1af1909c-d043-4519-aa74-d8b49a82eab7.jpeg",
+    "added_on": "2026-04-01",
+    "worn_count": 0,
+    "last_worn": null,
+    "ai_tags": {
+      "dominant_color": "#ad9986",
+      "undertone_match": "warm",
+      "skin_compatible": "medium"
+    }
+  }
+]
