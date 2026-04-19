@@ -1,0 +1,1 @@
+This is an ai powered fashion app. In this we can add our clothes from the wardrobe and this app using ai will give you recomendations based on your body type and skin colour. The app also gives you ootd(outfit of the day) recommendations. The app also gives a score to your wardrobe based on your collection of clothes that you upload.
